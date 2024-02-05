@@ -1,0 +1,17 @@
+{
+  "name": "caculator_nmp-consumable-package",
+  "version": "1.0.0",
+  "description": "paquete npm calculadora",
+  "main": "main.js",
+  "scripts": {
+    "publish:npm": "npm publish --access public"
+  },
+  "eslintConfig": {
+    "extends": "node_modules/standard/eslintrc.json"
+  },
+  "author": "sofia fernandes",
+  "license": "ISC",
+  "devDependencies": {
+    "standard": "^17.1.0"
+  }
+}
